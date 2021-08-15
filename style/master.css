@@ -888,7 +888,7 @@ h6 {
 .section-title h3 {
   font-weight: 700;
   font-size: 35px;
-  margin: 0;
+  margin: 0px;
   position: relative;
   display: inline-block;
   vertical-align: top; }
@@ -897,7 +897,7 @@ h6 {
 .section-title h4 {
   font-weight: 700;
   font-size: 35px;
-  margin: 0;
+  margin: 0px;
   position: relative;
   display: inline-block;
   vertical-align: top;
