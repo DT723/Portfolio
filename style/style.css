@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.TyContainer {
+   display: flex;
+   flex-direction: column;
+   height: 445px;
+   width: auto;
+   align-items: center;
+   justify-content: center;
+   /* border: 1px solid #888585; */
+}
+
+.TyTitle {
+    font-size: 67px;
+    margin-top: 0px;
+    color: #f34236;
+}
+
+.TyText {
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+.frameContainer {
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+iframe {
+    height: 448px;
+    width: 635px;
+    background-color: #ffff;
+    border: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 15px;
+    z-index: 1;
+}
