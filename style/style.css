@@ -65,6 +65,7 @@ card flip
 ///////////////////////////////////////////// */
 
 .flip-card-container {
+  font-size: 62.5%;
   position: relative;
   border: none;
   perspective: 1000px;
@@ -152,6 +153,12 @@ card flip
   width: 64px;
 }
 
+.backCardImg3,
+.backCardImg4 {
+  height: 70px;
+  width: 70px;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
@@ -159,21 +166,45 @@ card flip
 }
 
 .card-body {
+  font-size: 1rem;
   padding-top: 20px;
   border-top: solid 1px rgb(184, 181, 181);
 }
 
+.card-description {
+  margin-bottom: 0px;
+  font-size: 0.89rem;
+}
+
 .card-footer {
+  height: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 5px;
   border-top: none;
   background-color: #ffff;
 }
 
 .cta-card-arrow {
   font-size: 2.2rem;
+  padding-top: 40px;
+}
+
+.cta-card-arrow1 {
+  font-size: 2.2rem;
+  padding-top: 85px;
+}
+
+.cta-card-arrow3 {
+  font-size: 2.2rem;
+}
+
+.cta-card-arrow4 {
+  font-size: 2.2rem;
+}
+
+.card-header5 {
+  width: 100%;
 }
 
 /* .card__content {
