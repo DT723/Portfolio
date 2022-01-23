@@ -60,6 +60,11 @@ iframe {
   z-index: 1;
 }
 
+/* second paragraph - about */
+.second-para {
+  margin-top: -8px;
+}
+
 /* //////////////////////////////////////////////
 card flip
 ///////////////////////////////////////////// */
