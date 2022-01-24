@@ -221,7 +221,7 @@ card flip
 
 /***********MEDIA QUERY - PROJECT CARDS*************/
 
-@media screen and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-back-title {
     font-size: 1.2rem;
   }
@@ -244,7 +244,7 @@ card flip
   }
 }
 
-@media screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-container-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -295,7 +295,7 @@ card flip
   }
 }
 
-@media screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-container-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -307,7 +307,7 @@ card flip
   }
 }
 
-@media screen and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-container-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -318,7 +318,7 @@ card flip
   }
 }
 
-@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+/* @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-container-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -347,4 +347,4 @@ card flip
   .cta-card-arrow4 {
     margin-top: 5px;
   }
-}
+} */
