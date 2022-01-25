@@ -68,18 +68,26 @@ iframe {
 /* //////////////////////////////////////////////
 card flip
 ///////////////////////////////////////////// */
+.grid-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+}
 
 .flip-card-container {
   font-size: 62.5%;
   position: relative;
   border: none;
   perspective: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 350px;
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -87,6 +95,7 @@ card flip
   -moz-transition: transform 1s;
   -ms-transition: transform 1s;
   -o-transition: transform 1s;
+  /* margin-left: 10px; */
 }
 
 .flip.flip-card-inner {
@@ -154,7 +163,7 @@ card flip
 }
 
 .backCardImg {
-  width: 250px;
+  width: 100%;
   height: 55px;
   margin: 17px 0;
 }
@@ -222,13 +231,18 @@ card flip
 /***********MEDIA QUERY - PROJECT CARDS*************/
 
 @media screen and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+  .grid-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+  }
   .card-back-title {
     font-size: 1.2rem;
   }
   .backCardImg {
     width: 230px;
     height: 40px;
-    padding: 0 18px;
+    padding: 0 0px;
   }
   .backCardImg1,
   .backCardImg3,
@@ -245,15 +259,15 @@ card flip
 }
 
 @media screen and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container-grid {
+  .grid-card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: -40px 0;
+    align-content: center;
   }
   .flip-card-inner {
     height: 300px;
     width: 300px;
-    margin-left: 18px;
   }
   .backCardImg {
     width: 190px;
@@ -296,25 +310,24 @@ card flip
 }
 
 @media screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container-grid {
+  .grid-card-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0px;
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
   }
   .flip-card-inner {
-    margin-left: -33px;
+    margin-left: 27px;
   }
 }
 
-@media screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container-grid {
+@media screen and (max-device-width: 567px) and (-webkit-min-device-pixel-ratio: 2) {
+  .grid-card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0px;
+    align-content: center;
   }
   .flip-card-inner {
-    margin-left: -23px;
+    margin-left: 133px;
   }
 }
 
