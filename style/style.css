@@ -331,25 +331,14 @@ card flip
   }
 }
 
-/* @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0px;
-  }
-  .flip-card-inner {
-    margin-left: 77px;
-  }
-}
-
 @media screen and (max-device-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
   .card-container-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0px;
+    align-content: center;
   }
   .flip-card-inner {
-    margin-left: 47px;
+    margin-left: 57px;
   }
   .cta-card-arrow2 {
     margin-top: 5px;
