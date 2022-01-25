@@ -258,16 +258,18 @@ card flip
   }
 }
 
-@media screen and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   .grid-card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: -40px 0;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -70px;
+    margin-bottom: -40px;
     align-content: center;
   }
   .flip-card-inner {
     height: 300px;
     width: 300px;
+    margin-left: 27px;
   }
   .backCardImg {
     width: 190px;
@@ -349,4 +351,4 @@ card flip
   .cta-card-arrow4 {
     margin-top: 5px;
   }
-} */
+}
