@@ -68,11 +68,10 @@ iframe {
 /* //////////////////////////////////////////////
 card flip
 ///////////////////////////////////////////// */
-/* .grid-card-container {
+.grid-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0px;
-} */
+}
 
 .flip-card-container {
   font-size: 62.5%;
@@ -94,7 +93,6 @@ card flip
   -moz-transition: transform 1s;
   -ms-transition: transform 1s;
   -o-transition: transform 1s;
-  /* margin-left: 10px; */
 }
 
 .flip.flip-card-inner {
