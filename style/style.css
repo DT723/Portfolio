@@ -85,7 +85,7 @@ card flip
 
 .flip-card-inner {
   position: relative;
-  width: 360;
+  width: 360px;
   height: 360px;
   transition: transform 1s;
   transform-style: preserve-3d;
