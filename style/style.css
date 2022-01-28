@@ -133,8 +133,11 @@ card flip
     -ms-transform: rotateY(0deg);
     -o-transform: rotateY(0deg);
 }
-  
-  
+
+/* ////////////////////////////////////
+//////////CARD BACK Styles */
+
+
 /* .card__content {
 width: 100%;
 height: 100%;
