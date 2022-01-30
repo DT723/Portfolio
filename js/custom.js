@@ -401,7 +401,7 @@
 	      // script.onreadystatechange = callback;
 	      script.onload = callback;
 	      // fire NAY loading
-	      body.appendChild(script);
+	      body.appendChild;
 	    } else if (callback) {
 	      callback();
 	    }

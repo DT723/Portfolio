@@ -75,13 +75,13 @@ body {
     flex-wrap: wrap;
   }
 
-  .flip-card-container{
+  /* .flip-card-container{
       height: 360px;
       flex-basis: 0;
       margin-bottom: 20px; 
       min-width: 375px;
       margin: 1rem auto;
-  }
+  } */
 
   .flip-card-container:after {
       margin-bottom: 0px;
@@ -93,6 +93,10 @@ body {
     border: none;
     perspective: 1000px;
     align-content: center;
+    height: 360px;
+    flex-basis: 0; 
+    min-width: 375px;
+    margin: 1rem auto;
   }
   
   .flip-card-inner {
@@ -239,3 +243,12 @@ body {
   }
   
   /***********MEDIA QUERY - PROJECT CARDS*************/
+
+  @media screen and (max-width: 1200px) {
+     .flex-card-container {
+      display: flex;
+      width: 85%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
