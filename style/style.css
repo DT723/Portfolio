@@ -75,14 +75,6 @@ iframe {
   flex-wrap: wrap;
 }
 
-/* .flip-card-container{
-      height: 360px;
-      flex-basis: 0;
-      margin-bottom: 20px; 
-      min-width: 375px;
-      margin: 1rem auto;
-  } */
-
 .flip-card-container:after {
   margin-bottom: 0px;
 }
@@ -232,6 +224,7 @@ iframe {
 
 .cta-card-arrow3 {
   font-size: 2.2rem;
+  padding-top: 47px;
 }
 
 .cta-card-arrow4 {
@@ -247,8 +240,12 @@ iframe {
 @media screen and (max-width: 1200px) {
   .flex-card-container {
     display: flex;
-    width: 85%;
     justify-content: center;
     margin: 0 auto;
+  }
+  .flip-card-container {
+    min-width: 350px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
